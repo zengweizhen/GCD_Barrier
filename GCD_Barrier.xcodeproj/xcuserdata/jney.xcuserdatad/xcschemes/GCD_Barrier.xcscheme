@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B445C0901F2AD1E300BF1BC2"
+               BuildableName = "GCD_Barrier.app"
+               BlueprintName = "GCD_Barrier"
+               ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B445C0A91F2AD1E300BF1BC2"
+               BuildableName = "GCD_BarrierTests.xctest"
+               BlueprintName = "GCD_BarrierTests"
+               ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B445C0B41F2AD1E300BF1BC2"
+               BuildableName = "GCD_BarrierUITests.xctest"
+               BlueprintName = "GCD_BarrierUITests"
+               ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B445C0901F2AD1E300BF1BC2"
+            BuildableName = "GCD_Barrier.app"
+            BlueprintName = "GCD_Barrier"
+            ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B445C0901F2AD1E300BF1BC2"
+            BuildableName = "GCD_Barrier.app"
+            BlueprintName = "GCD_Barrier"
+            ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B445C0901F2AD1E300BF1BC2"
+            BuildableName = "GCD_Barrier.app"
+            BlueprintName = "GCD_Barrier"
+            ReferencedContainer = "container:GCD_Barrier.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
